@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="54.07" tests="6" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="43.182" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -66,19 +66,10 @@
     <property name="library.jansi.path" value="C:\apache-maven-3.9.11\lib\jansi-native"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="verifyHomePage" classname="test.HomepageTest" time="0.104"/>
-  <testcase name="searchProductAndVerifyFirstLink" classname="test.SearchProductTest" time="2.057"/>
-  <testcase name="verifyMXPlayerHomepage" classname="test.MxPlayerHomepageTest" time="3.192"/>
-  <testcase name="verifyLinks" classname="test.MxPlayerHomepageTest" time="3.862">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at test.MxPlayerHomepageTest.verifyLinks(MxPlayerHomepageTest.java:35)
-</failure>
-    <system-err><![CDATA[Aug 26, 2025 8:51:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 139
-Aug 26, 2025 8:51:26 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 139.0.7258.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="verifySignInPage" classname="test.SignInPageTest" time="1.096"/>
-  <testcase name="verifySignInFields" classname="test.SignInPageTest" time="1.118"/>
+  <testcase name="verifyHomePage" classname="test.HomepageTest" time="0.081"/>
+  <testcase name="searchProductAndVerifyFirstLink" classname="test.SearchProductTest" time="4.961"/>
+  <testcase name="verifyMXPlayerHomepage" classname="test.MxPlayerHomepageTest" time="5.217"/>
+  <testcase name="verifyLinks" classname="test.MxPlayerHomepageTest" time="3.733"/>
+  <testcase name="verifySignInPage" classname="test.SignInPageTest" time="2.744"/>
+  <testcase name="verifySignInFields" classname="test.SignInPageTest" time="1.023"/>
 </testsuite>
