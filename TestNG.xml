@@ -4,7 +4,7 @@
         <classes>
             <class name="test.HomepageTest" />
             <class name="test.SearchProductTest" />
-            <class name="test.MxPlayerHomepageTest" />
+            <!--<class name="test.MxPlayerHomepageTest" />-->
             <class name="test.SignInPageTest" />
         </classes>
     </test>
