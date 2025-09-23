@@ -11,9 +11,11 @@ This is a demo project for Selenium Page Object Model with ChainTest reporting.
 ### Steps
 1. Clone this project
 2. Open the project in Intellij IDEA
-3. Add Chaintest library, properties file, annotations in tests.
-4. Run through maven with command -> clean test -DXmlFile=TestNG.xml
-5. Find results in target/chaintest/Index.html
+3. Add Chaintest dependency.
+4. Add chaintest properties file.
+5. Include listener in base test and annotations in tests.
+6. Run through maven with command -> clean test -DXmlFile=TestNG.xml
+7. Find results in target/chaintest/Index.html
 
 ### Report -
 
