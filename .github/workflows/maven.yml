@@ -40,4 +40,4 @@ jobs:
       if: success() || failure()
       with:
         name: chaintest            # Name of the folder
-        path: target/chaintest    # Path to test results
+        path: target/chaintest     # Path to test results
